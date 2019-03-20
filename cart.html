@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>购物车-盒马鲜生</title>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+	</head>
+	<body>
+		<!--header-->
+		<div class="header">
+			<div class="headerChild">
+				<p class="pTitle">分类</p>
+				<a href="#" class="aBtn3">删除</a>
+			</div>
+		</div>
+		<!--main-->
+		<div class="main">
+			<div class="tradeIn">
+                <a href="#">
+                    <p class="huangou">换购</p>
+                    <p>购满<span>39.00</span>元，可换购超值商品，还差<span>9.10</span>元</p>
+                    <p>查看活动</p>
+                    <img src="img/i2.jpg" alt="查看更多">
+                </a>
+            </div>
+            <div class="productInfo">
+                <div class="productCheckBtn" id="productCheckboxBtn"><span class="productCheckBtnChild"></span></div>
+                <div class="productdeDetails">
+                    <a href="#">
+                        <div class="dalImg">
+                            <img src="img/img15.jpg" alt="草莓"/>
+                        </div>
+                        <div class="dalSpec">
+                            <h3>江苏 红颜草莓 250g</h3>
+                            <p>规格：250g/盒</p>
+                            <p class="time">最快<span>10:15</span>送达</p>
+                            <p class="price"><span>￥29.90</span>/盒</p>
+                        </div>      
+                    </a>
+                </div>
+                <div class="productNum">
+                    <input type="button" value="-"/>
+                    <input type="text" value="1"/>
+                    <input type="button" value="+"/>
+                </div>
+            </div>
+        </div>
+        <!-- productInfo -->
+        <div class="productInfo productInfo2">
+            <div class="productCheckBtn" id="productCheckboxBtn"><span class="productCheckBtnChild productCheckBtnChild2"></span>全选</div>
+            <p class="price">合计：<span>￥0.00</span></p>
+            <a href="#" class="clearing">去结算</a>
+        </div>
+		<!--footer-->
+		<div class="footer">
+			<div class="footerChild">
+				<div class="footerChildNav">
+					<a href="index.html">
+						<i class="iconfont icon-hema"></i>
+						<p>首页</p>
+					</a>
+				</div>
+				<div class="footerChildNav">
+					<a href="classify.html">
+						<i class="iconfont icon-fenlei"></i>
+						<p>分类</p>
+					</a>
+				</div>
+				<div class="footerChildNav">
+					<a href="community.html">
+						<i class="iconfont icon-hiliaotian"></i>
+						<p>盒社群</p>
+					</a>
+				</div>
+				<div class="footerChildNav">
+					<a href="cart.html">
+						<i class="iconfont icon-gouwuche"></i>
+						<p>购物车</p>
+					</a>
+				</div>
+				<div class="footerChildNav">
+					<a href="mine.html">
+						<i class="iconfont icon-wode"></i>
+						<p>我的</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+    function $(str){//#box .cls  p
+		if(str.charAt(0)=="#"){
+			return document.getElementById(str.substring(1));
+		}else if(str.charAt(0)=="."){
+			return document.getElementsByClassName(str.substring(1));
+		}else{
+			return document.getElementsByTagName(str);
+		}
+	}
+
+    $(".productCheckBtn")[0].onclick = function(event){
+        let evt = event || window.event;
+        // for(){}
+        this.children[0].style.cssText = "background: #25a2ff;color: #fff;border: 1px solid #25a2ff;text-align:center"; 
+        this.children[0].innerHTML = "√";
+    }
+</script>
+<!-- <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript">
+    $(".productCheckBtn").click = (function(){
+        $(".productCheckBtn span").css = ({"background": "url(img/bj2.jpg)","background-size":"0.18rem","border":"1px solid #25a2ff","text-align":"center"});
+		$(".productCheckBtn span").val("√");
+		}
+	);
+</script> -->

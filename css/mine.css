@@ -1,0 +1,71 @@
+/* order */
+.order{
+    background: #fff;
+    padding: 0 0.12rem;
+    /* width: 100%; */
+    /* display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-align-items: center;
+	-webkit-justify-content: space-between; */
+}
+.order .orderMOre{
+    border-bottom: 1px solid #eeeeee;
+    line-height: 0.4rem;
+}
+.order .orderMOre a{
+    display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-align-items: center;
+    -webkit-justify-content: space-between;
+    color: #999999;
+}
+.order .orderMOre h3{
+    font-size: 0.14rem;
+    color: #333333;
+}
+.order .orderList{
+    display: -webkit-flex;
+	-webkit-flex-direction: row;
+	/* -webkit-align-items: center; */
+    /* -webkit-justify-content: space-around; */
+    -webkit-flex-wrap: wrap;
+}
+.order .orderList .orderListChild{
+    padding: 0.13rem 0 0.07rem;
+    width: 25%;
+}
+.order .orderList .orderListChild a{
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
+    -webkit-align-items: center;
+}
+.order .orderList .orderListChild .iconfont{
+    font-size: 0.24rem;
+    color: #0cc6ff;
+    padding:0.05rem 0;
+}
+.order .orderList .orderListChild .icon-ziyuan,.order .orderList .orderListChild .icon-youhuiquan{
+    color:#ff6117;
+}
+.order .orderList .orderListChild p{
+    padding:0.05rem 0;
+    color: #999999;
+}
+.order .orderList .orderListChild .orderListChildLastP{
+    color: #ff6117;
+    font-size: 0.09rem;
+    padding:0;
+}
+
+/* invite */
+.invite{
+    display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-align-items: center;
+    -webkit-justify-content: center;
+    padding: 0.08rem 0;
+}
+.invite img{
+    width: 3.38rem;
+    height: 0.73rem;
+}

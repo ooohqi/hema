@@ -1,0 +1,38 @@
+/*classify*/
+body{
+	background: #fff;
+}
+.classify{
+	margin:0 auto;
+	width: 3.37rem;
+	display:-webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-align-items: center;
+}
+.classify .classifyImg{
+	margin-top: 0.08rem;
+}
+.classify .classifyImg img{
+	width:3.44rem;
+	height:1.07rem;
+}
+.classify .classifyNav{
+	display:-webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-align-items: center;
+	-webkit-justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+}
+.classify .classifyNav .classifyNavChild{
+	padding: 0.08rem 0.15rem;
+}
+.classify .classifyNav .classifyNavChild img{
+	width: 0.73rem;
+	height: 0.67rem;
+}
+.classify .classifyNav .classifyNavChild p{
+	text-align: center;
+	line-height: 0.24rem;
+	font-size: 0.14rem;
+	color: #333333;
+}

@@ -1,0 +1,90 @@
+/* register */
+.register{
+    padding: 0.09rem 0.12rem;
+}
+.register .area{
+    padding: 0.1rem 0;
+}
+.register .area a{
+    display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-align-items: center;
+    -webkit-justify-content: space-between;
+    color: #333;
+}
+.register .registerInfo{
+    padding: 0.1rem 0;
+    position: relative;
+}
+.register .registerInfo input{
+    border: none;
+    border-bottom: 1px solid #ff6117;
+    width: 50%; 
+    text-indent: 0.05rem;
+    color: #333;
+    font-size: 0.11rem;
+    outline: none;
+    line-height: 0.2rem;
+    background: none;
+    padding-right: 50%;
+}
+.register .registerInfo .clickBtn{
+    position: absolute;
+}
+.register .registerInfo .txtClear{
+    right: 0.05rem;
+    bottom: 0.1rem;
+    font-size: 0.16rem;
+    /* display: none; */
+}
+.register .registerInfo .authCode{
+    right: 0.05rem;
+    bottom: 0.15rem;
+    color: #ff6117;
+    background: #eee;
+    font-size: 0.08rem;
+    font-weight: bold;
+    border-radius: 0.1rem;
+    padding: 0.05rem 0.1rem;
+}
+.register .registerBtn{
+    width: 100%;
+    padding: 0.1rem 0;
+    background: #ff6117;
+    color: #fff;
+    font-size: 0.16rem;
+    border: none;
+    display: inline-block;
+    border-radius: 0.2rem;
+    margin: 0.2rem 0 0.1rem;
+}
+.register .registerAgree{
+    color: #999;
+}
+.register .registerAgree a{
+    color: #333;
+    font-weight: bold;
+}
+/* login */
+.register .registerImg{
+    text-align: center;
+}
+.register .registerImg img{
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+}
+.register .registerInfo .txtClear2{
+    right: 0.5rem;
+    bottom: 0.1rem;
+    font-size: 0.16rem;
+    /* display: none; */
+}
+.register .registerInfo .forgetPass{
+    right: 0.05rem;
+    bottom: 0.15rem;
+    color: #333;
+    font-size: 0.08rem;
+    font-weight: bold;
+}

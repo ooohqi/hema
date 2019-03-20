@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>登录-盒马鲜生</title>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+        <link rel="stylesheet" type="text/css" href="css/register.css"/>
+
+	</head>
+	<body>
+		<!--header-->
+		<div class="header header3">
+			<div class="headerChild headerChild2">
+                <a href="index.html" class="aBtn2"><</a>
+                <a href="#">更多</a>
+			</div>
+		</div>
+		<!--main-->
+        <div class="main">
+            <div class="register">
+                <div class="registerImg">
+                    <img src="img/mine.jpg" alt="头像">
+                </div>
+                <div class="registerInfo call">
+                    <input type="text" placeholder="请输入淘宝账户">
+                </div>
+                <div class="registerInfo auth">
+                    <input type="text" placeholder="请输入密码">
+                    <p class="clickBtn txtClear2">×</p>
+                    <p class="clickBtn forgetPass">忘记密码</p>
+                </div>
+                <input class="registerBtn" type="button" value="登录">
+            </div>
+		</div>
+	</body>
+</html>
+<script src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript">
+    $(".txtClear2").css({"display":"none"});
+    $(".auth input").keypress(function(){
+        $(".txtClear2").css({"display":"block"});
+        $(".txtClear2").click(function(){
+            $(".auth input").val("");
+            $(".txtClear2").css({"display":"none"});
+        });
+    });    
+</script>

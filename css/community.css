@@ -1,0 +1,134 @@
+/*community*/
+.community{
+	background: #fff;
+	display:-webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-align-items: center;
+	-webkit-justify-content: space-around;
+	padding: 0.14rem 0.25rem;
+}
+.community .communityChild a{
+	display:-webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
+	font-size: 0.15rem;
+	color: #333;
+}
+.community .communityChild .iconp{
+	border-radius: 50%;
+	width: 0.24rem;
+	height: 0.24rem;
+	line-height: 0.25rem;
+	text-align: center;
+	background: #ffbd30;
+	margin-right: 0.07rem;
+}
+.community .communityChild .iconp .iconfont{
+	font-size: 0.16rem;
+	color: #fff;
+}
+.community .communityChild .iconp2{
+	background: #33c1ff;
+}
+.line{
+	height: 0.2rem;
+	border-right: 2px solid #eeeeee;
+}
+.line2{
+	margin: 0 0.06rem;
+}
+/*invitation*/
+.invitation{
+	margin:0.04rem 0.12rem;
+	display:-webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-align-items: center;
+}
+.invitation .invitationTitle{
+	width: 100%;
+	display:-webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-align-items: center;
+}
+.invitation .invitationTitle h3{
+	color: #333;
+	font-size: 0.16rem;
+}
+.invitation .invitationTitle p{
+	color: #009eff;
+	font-size: 0.09rem;
+	padding: 0.15rem 0;
+}
+.invitation .invitationCom{
+	border-radius: 0.04rem;
+	width: 100%;
+}
+.invitation .invitationCom .inComChildTit{
+	background: #fff;
+	padding: 0.15rem .12rem 0.11rem;
+	margin-bottom: 0.01rem;
+	color: #333333;
+}
+.invitation .invitationCom .inComChildInfo{
+	background: #fff;
+	padding: 0.09rem .12rem;
+}
+.invitation .invitationCom .inComChildInfoTop{
+	display:-webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-align-items: center;
+	-webkit-justify-content: space-between;
+}
+.invitation .inComChildInfoTop .inComChildInfoTopLeft{
+	display:-webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-align-items: center;
+}
+.invitation .inComChildInfoTop .inComChildInfoTopLeft img{
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 50%;
+	margin-right: 0.12rem;
+}
+.invitation .inComChildInfoTop .inComChildInfoTopLeft h3{
+	color: #333333;
+	font-size: 0.16rem;
+}
+.invitation .inComChildInfoTop .inComChildInfoTopRight a{
+	padding: 0.07rem 0.12rem;
+	background: #11bcff;
+	color: #e6ffff;
+	border-radius: 0.11rem;
+}
+.invitation .inComChildInfoBtm{
+	line-height: 0.14rem;
+	font-size: 0.12rem;
+	color: #989898;
+	padding-top: 0.2rem;
+}
+.invitation .hotTopic{
+	background:#fff;
+}
+.invitation .hotTopic .hotTopicTitle{
+	display:-webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-align-items: center;
+	padding: 0.16rem 0.12rem 0;
+}
+.invitation .hotTopic .hotTopicTitle img{
+	width: 0.19rem;
+	height: 0.19rem;
+	margin-right: 0.06rem;
+}
+.invitation .hotTopic .hotTopicTitle h3{
+	font-size: 0.16rem;
+	color: #333333;
+}
+.invitation .hotTopic .hotTopicImg{
+	padding: 0.11rem 0.12rem;
+}
+.invitation .hotTopic .hotTopicImg img{
+	width:3.12rem;
+	height:1.25rem;
+}
